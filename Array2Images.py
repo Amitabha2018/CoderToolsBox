@@ -5,7 +5,7 @@ __time__ = '2023-02-18 12:32'
 import os
 import tensorflow.compat.v1 as tf
 import matplotlib.pyplot as plt
-from PIL import Imagefrom
+from PIL import Image
 from tqdm import tqdm
 
 def array2image(images,labels,class_nums,save_dir):
